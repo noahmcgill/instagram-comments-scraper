@@ -21,7 +21,7 @@ You will need to install the following requirements (consider doing this inside 
 * [pytz](https://pypi.org/project/pytz/)
 * [Selenium](https://pypi.org/project/selenium/)
 
-You can also install the requirements by running the requirements.txt file:
+You can also install the requirements by running a pip install of the requirements.txt file:
 
 ```
 pip install -r requirements.txt
