@@ -87,7 +87,7 @@ except:
 
 time.sleep(1.5)
 
-# Show all comments
+# Show all comments on the post
 
 while True:
     try:
