@@ -87,21 +87,12 @@ except:
 
 time.sleep(1.5)
 
-# Set "show more" limit
-
-i = 0
-
 # Show all comments
 
 while True:
     try:
-        if i < 151:
-            driver.find_element_by_class_name('afkep').send_keys(Keys.RETURN)
-            time.sleep(1.5)
-            i += 1
-            continue
-        else:
-            break
+        driver.find_element_by_class_name('afkep').send_keys(Keys.RETURN)
+        time.sleep(1.5)
     except:
         break
 

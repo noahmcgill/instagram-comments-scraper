@@ -15,11 +15,18 @@ This script runs using Python 3.
 
 ## Dependencies
 
-You will need to install the following libraries (consider doing this inside of a Python virtual environment):
+You will need to install the following requirements (consider doing this inside of a Python virtual environment):
 
 * [BeautifulSoup 4](https://pypi.org/project/beautifulsoup4/)
 * [pytz](https://pypi.org/project/pytz/)
 * [Selenium](https://pypi.org/project/selenium/)
+
+You can also install the requirements by running the requirements.txt file:
+
+```
+pip install -r requirements.txt
+
+```
 
 # Usage
 
@@ -30,7 +37,7 @@ Required arguments:
 
 - post_link                                 Link to the Instagram post to be scraped.
 
-Optional arguments (as of now, all optional arguments must be present):
+Optional arguments:
 
 - range_identifier                          Specifies comments to be scraped before or after a certain datetime. 'before' or 'after'
 - date                                      Specifies the before or after date. Format mm/dd/yyyy
